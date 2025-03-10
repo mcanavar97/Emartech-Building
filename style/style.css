@@ -1,0 +1,70 @@
+.w-100-height {
+  height: 90vh;
+  width: 100%;
+}
+
+.carousel-item {
+  min-height: 300px;
+}
+
+.carousel-caption {
+  text-align: left;
+  margin-bottom: 180px;
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.nav-link {
+  transition: all 0.4s;
+}
+
+.nav-link:hover {
+  color: #4f959d;
+}
+
+.popular {
+  margin-top: 100px;
+}
+
+.kesfet {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.kesfet:hover {
+  color: #4f959d;
+}
+
+.col {
+  margin-top: 10px;
+  transition: all 0.1s;
+}
+
+.col:hover {
+  transform: scale(1.02);
+}
+
+.col img {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .footer-top {
+    text-align: center;
+  }
+}

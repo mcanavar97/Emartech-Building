@@ -18,3 +18,4 @@ In this project, a construction website was designed using Html, CSS and Bootstr
 - Bootstrap
 
 # Preview
+![](gif.gif)
